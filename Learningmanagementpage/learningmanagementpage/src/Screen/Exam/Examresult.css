@@ -1,0 +1,27 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: row; /* Position dashboard and content side by side */
+    padding-top: 200px; /* Adjust this if needed */
+}
+
+.dashboard {
+    width: 250px; /* Width of the dashboard */
+    position: fixed; /* Fixes the dashboard on the side */
+    top: 0;
+    left: 0;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #fff; /* Background color for the dashboard */
+}
+
+.dashboard-content {
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px; /* Add padding to the content */
+    background-color: #f0f0f0; /* Background color for the content */
+    width: calc(100% - 250px); /* Adjust width to fit the remaining space */
+}
+
+.exam-result {
+    margin: 20px; /* Margin around the result container */
+    padding: 20px; /* Padding inside the result container */
+    background-color: #f0f0f0; /* Background color for the result container */
+}

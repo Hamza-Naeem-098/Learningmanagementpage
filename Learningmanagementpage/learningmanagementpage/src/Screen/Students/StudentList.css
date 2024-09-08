@@ -1,0 +1,21 @@
+.student-list-container {
+    padding-left:300px;
+    width: 100% ;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .student-list-container {
+      padding: 30px;
+    }
+  }
+  
+  table {
+    width: 100%;
+    table-layout: fixed; /* Ensure table stays within the container */
+  }
+  
+  th, td {
+    word-wrap: break-word; /* Ensure content fits within cells */
+  }
+  

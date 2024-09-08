@@ -1,0 +1,54 @@
+.registration-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%; /* Ensure the header takes full width of its container */
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-form label {
+    margin: 10px 0 5px;
+  }
+  
+  .registration-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .gender-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gender-options input {
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  

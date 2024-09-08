@@ -1,0 +1,37 @@
+.exam-head{
+    padding-left: 500px;
+    padding-bottom: 30px;
+}
+.exam-main{
+    padding-left: 200px;
+}
+.exam-container {
+    border: 2px solid wheat; /* Solid wheat-colored border */
+    width: 50%; /* Set the width of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    padding: 20px; /* Space inside the container */
+    margin: 20px auto; /* Center horizontally */
+    border-radius: 12px; /* Slightly more rounded corners */
+    background-color: #f9f9f9; /* Light background color for better contrast */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+    
+}
+
+.exam-container:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increase shadow depth on hover */
+}
+
+.exam-container h4 {
+    font-weight: bolder; /* Make h4 text bolder */
+    color: #333; /* Darker color for better readability */
+    margin-bottom: 10px; /* Space below the h4 */
+    font-size: 1.5em; /* Larger font size for emphasis */
+}
+
+.exam-container p {
+    color: black; /* Set text color to black */
+    font-weight: bold; /* Make text bold */
+    margin: 5px 0; /* Space above and below the paragraph */
+    line-height: 1.5; /* Increase line height for readability */
+}
